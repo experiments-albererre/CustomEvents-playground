@@ -1,5 +1,12 @@
-.customEventTitle {
+.customEventContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.customEventText {
     color: white;
     background: lightskyblue;
+    font-size: 1.2em;
     border-radius: 20px;
+    padding: 10px;
 }
