@@ -5,22 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Custom Events playground</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="customEventTitle">
+        Custom Events!
+    </div>
 
-    <script>
-        // custom event
-        let event = new Event('pepe');
-
-        // dispatch custom event on click
-        document.addEventListener('click', function(){
-        document.dispatchEvent(event);
-        });
-
-        // Custom JavaScriot event implementation
-        document.addEventListener('pepe', function(){
-        alert('Soy pepe');
-        })
-    </script>
+    <script src="simpleAlert.js"></script>
+    <script src="advanceArray.js"></script>
 </body>
 </html>
